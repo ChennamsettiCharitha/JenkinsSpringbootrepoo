@@ -17,9 +17,13 @@ public class ClientController {
 		}
 	@GetMapping("/test")
 	public String test() {
-	return "deploy spring boot jenkins";
+	return "deploy spring boot  the jenkins";
 		
 	}
+	@GetMapping("/test1")
+	public String test1() {
+	return "spring boot project got the updated ";
+	}	
 
 	
 
