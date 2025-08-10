@@ -24,6 +24,10 @@ public class ClientController {
 	public String test1() {
 	return "spring boot project got the updated ";
 	}	
+	@GetMapping("/test2")
+	public String test2() {
+	return "UDPATED  SPRINNG BOOT";
+	}
 
 	
 
