@@ -12,7 +12,7 @@ public class ClientController {
 		}
 	@GetMapping("/demo")
 		public String demo() {
-		return "Jenkins Demo";
+		return "Jenkins Demoo";
 			
 		}
 	@GetMapping("/test")
